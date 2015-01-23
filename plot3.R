@@ -36,6 +36,7 @@ g + facet_wrap(~ type, nrow = 2, ncol = 2) +
   geom_point() + geom_smooth(method = "lm") +
   labs(title = "Total PM2.5 emission in the Baltimore City, Maryland") +
   labs(x = "Year", y = "Emission in tons")
-ggsave("plot3.png")
+
+ggsave("plot3.png", width=7, height=7, dpi=70)
 
     

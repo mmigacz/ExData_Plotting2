@@ -40,6 +40,6 @@ g + geom_point() + geom_smooth(method = "lm") +
   labs(title = "Total PM2.5 emission in the USA from coal combustion-related sources") +
   labs(x = "Year", y = "Emission in 1000 tons")
 
-ggsave("plot4.png")
+ggsave("plot4.png", width=7, height=7, dpi=70)
 
 

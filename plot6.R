@@ -43,6 +43,6 @@ g + geom_point(aes(color = fips)) +
   labs(title = "Total PM2.5 emission from motor vehicle sources in the Baltimore City and in Los Angeles County") +
   labs(x = "Year", y = "Emission in tons, log scale")
 
-ggsave("plot6.png")
+ggsave("plot6.png", width=7, height=7, dpi=70)
 
 

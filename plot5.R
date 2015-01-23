@@ -46,6 +46,6 @@ g + geom_point(aes(color = total)) + geom_line() +
   scale_y_log10() +
   geom_hline(data = (filter(em, year == 1999)), aes(yintercept=total))
 
-ggsave("plot5.png")
+ggsave("plot5.png", width=7, height=7, dpi=70)
 
 
